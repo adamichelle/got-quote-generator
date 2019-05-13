@@ -40,4 +40,14 @@ $(function() {
             $("#author").append(citation);
         });
     });
+
+    $("#tweetQuote").click(function() {
+        let regex = / in Game of Thrones/gi;
+        quote = $("#quote").text();
+        author = $("#author")
+          .text()
+          .replace(regex, "");
+        let tweethref = `https://twitter.com/intent/tweet?text=${quote} - ${author} via @aniuchia`;
+        $(".twitter-share-button").attr("href", tweethref);
+    });
 });
