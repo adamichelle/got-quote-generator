@@ -1,0 +1,25 @@
+body {
+    margin: 0 !important;
+    background: url("https://res.cloudinary.com/missada/image/upload/v1557701985/got_machine_quote_bg.jpg");
+}
+  
+header, .quote-block {
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFFFFF !important;
+}
+  
+.quote-machine-about, .page-footer {
+    background: rgba(190, 190, 190, 0.9);
+    color: #000000;
+}
+  
+.footer-link {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+  
+.footer-link:hover {
+    text-decoration: none;
+    font-weight: bolder;
+}
