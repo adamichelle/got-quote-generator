@@ -24,4 +24,20 @@ $(function() {
         $("#author").text(firstLoadedQuoteAuthor);
         $("#author").append(citation);
     });
+
+    $("#newQuote").click(function() {
+        DBHelper.chooseRandomQuote((quoteFunction) => {
+            let randomQuoteFunction = quoteFunction;
+        
+            newRandomQuoteArray = randomQuoteFunction();
+            
+            newQuote = newRandomQuoteArray.quote;
+            newQuoteAuthor = newRandomQuoteArray.character;
+            
+    
+            $("#quote").text(newQuote);
+            $("#author").text(newQuoteAuthor);
+            $("#author").append(citation);
+        });
+    });
 });
