@@ -12,8 +12,6 @@ export default class DBHelper {
         fetch(DBHelper.DATABASE_URL)
         .then(response => response.json())
         .then(quotes => {
-            console.log("Getting quotes from API");
-
             callback(null, quotes);
         })
         .catch((e) => console.log(e))
