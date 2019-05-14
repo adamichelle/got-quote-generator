@@ -1,0 +1,26 @@
+{
+  "name": "got-quote-generator",
+  "version": "1.0.0",
+  "description": "A front end application that displays got quotes randonly and allows you to tweet a quote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamichelle/got-quote-generator.git"
+  },
+  "keywords": [
+    "quote",
+    "generator",
+    "game",
+    "of",
+    "thrones"
+  ],
+  "author": "Aniuchi Adaobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamichelle/got-quote-generator/issues"
+  },
+  "homepage": "https://github.com/adamichelle/got-quote-generator#readme"
+}
